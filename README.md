@@ -1,6 +1,6 @@
-# 💾 LeetCode SQL Solutions
+#  LeetCode SQL
 
-This repository contains my SQL solutions to LeetCode problems 🚀
+My LeetCode SQL problem solving journey
 
 ## 📊 Progress
 - Easy: 1
