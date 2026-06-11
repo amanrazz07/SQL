@@ -1,0 +1,13 @@
+-- LeetCode 176
+-- Second Highest Salary
+-- Topic: SQL, Subquery
+-- Difficulty: Medium
+-- Time Complexity: O(n)
+-- Space Complexity: O(1)
+
+SELECT MAX(salary) AS SecondHighestSalary
+FROM Employee
+WHERE salary < (
+    SELECT MAX(salary)
+    FROM Employee
+);
